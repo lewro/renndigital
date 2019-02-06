@@ -153,6 +153,12 @@ input:focus {
   background: #29973e;
 }
 
+.dropdown-content li.selected:hover [type="checkbox"]+span:not(.lever):before {
+  border-right-color: white;
+  border-bottom-color: white;
+}
+
+
 /* Switches */
 .switch label .lever,
 .switch label input[type=checkbox]:checked+.lever {
