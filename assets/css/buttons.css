@@ -1,0 +1,86 @@
+/* Buttons CSS
+// ------------------------------------
+// Author: Roman Leinwather
+// Created at: 04/02/2019
+// Copyright 2019 - All rights reserved Renndigital
+// ------------------------------------ */
+
+.button {
+  display: inline-block;
+  border-radius: 100px;
+  line-height: 11px;
+  font-size: 11px;
+  text-transform: uppercase;
+  padding: 13px 39px;
+  margin-right: 15px;
+  color: #666;
+}
+
+.button.white {
+  background: #fff;
+  color: #666;
+}
+
+.button.white:hover {
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, .2);
+  color: #000;
+}
+
+.button.light {
+  background: #ddd;
+  color: #666;
+}
+
+.button.light:hover {
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, .2);
+  color: #000;
+}
+
+.button.cancel {
+  color: #666;
+  border: 1px solid #f2f2f2;
+}
+
+.button.cancel:hover {
+  color: #000;
+  border: 1px solid #ddd;
+}
+
+.button.dark {
+  background: #383b42;
+  color: #fff;
+}
+
+.button.dark:hover {
+  background: #000;
+  color: #fff;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, .2);
+}
+
+
+/* Floating circle buttons */
+.btn-floating.white {
+  background: #fff;
+  box-shadow: none;
+}
+
+.btn-floating.white i {color: #666;}
+
+.btn-floating.light {
+  background: #ddd;
+  box-shadow: none;
+}
+
+.btn-floating.light i {color: #666;}
+
+.btn-floating.dark {
+  background: #383b42;
+  box-shadow: none;
+}
+
+.btn-floating:hover {box-shadow: 0px 3px 5px #ddd;}
+.btn-floating.dark:hover {background: #000;}
+
+.btn-floating.dark i {color: #fff;}
+
+

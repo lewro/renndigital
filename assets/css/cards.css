@@ -1,0 +1,72 @@
+/* Cards CSS
+// ------------------------------------
+// Author: Roman Leinwather
+// Created at: 04/02/2019
+// Copyright 2019 - All rights reserved Renndigital
+// ------------------------------------ */
+
+.card {
+  background: #fff;
+  padding: 15px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, .2);
+}
+
+.card.inline {
+  width: 100%;
+  cursor: pointer;
+}
+
+.card-inline-element {
+  float: left;
+}
+
+.card.inline:hover {
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, .2);
+}
+
+.card-inline-element.last {
+  margin-right: 0px;
+}
+
+.card-element-cover {
+  float: left;
+}
+
+.card-element-cover {width: calc(100% - 60px);}
+
+.two .card-element-cover .card-inline-element {width: 50%;}
+.three .card-element-cover .card-inline-element {width: 33%;}
+.four .card-element-cover .card-inline-element {width: 25%;}
+.five .card-element-cover .card-inline-element {width: 20%;}
+
+.card-element-cover .card-inline-element {
+  padding-left: 10px;
+}
+
+.card-inline-element.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.card-inline-element.icon i {
+  background: #f2f2f2;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  display: block;
+  border-radius: 100px;
+  text-align: center;
+}
+
+.card-inline-element.icon i.fa-ellipsis-v {
+  background: none;
+}
+
+.card-inline-element.icon i:hover {
+  background: #ddd;
+}
+
+.card-element-header {
+  font-size: 7px;
+  text-transform: uppercase;
+}

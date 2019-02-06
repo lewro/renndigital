@@ -1,0 +1,31 @@
+/* Sidebar CSS
+// ------------------------------------
+// Author: Roman Leinwather
+// Created at: 04/02/2019
+// Copyright 2019 - All rights reserved Renndigital
+// ------------------------------------ */
+
+.sidebar {
+  background: #383b42;
+  min-height: 5000px !important;
+  padding: 0 !important;
+  color: #fff;
+}
+
+.sidebar li a {
+  display: block;
+  padding: 15px 30px;
+  color: #fff;
+}
+
+.sidebar h2 {
+  padding: 15px 30px;
+}
+
+.sidebar li a.active {
+  background: #000;
+}
+
+.sidebar li a:hover {
+  background: #000;
+}

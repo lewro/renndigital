@@ -1,0 +1,101 @@
+/* Forms CSS
+// ------------------------------------
+// Author: Roman Leinwather
+// Created at: 04/02/2019
+// Copyright 2019 - All rights reserved Renndigital
+// ------------------------------------ */
+
+
+/* Checkboxes */
+[type="checkbox"]:checked+span:not(.lever):before {
+  border-right: 2px solid #29973e;
+  border-bottom: 2px solid #29973e;
+}
+
+[type="checkbox"].filled-in:checked+span:not(.lever):after {
+  border: 2px solid #29973e;
+  background-color: #29973e;
+}
+
+/* Chips */
+.chip {
+  background: #fff;
+  line-height: 32px;
+  padding: 0 0 0 15px;
+  border: 1px solid #fff;
+}
+
+.chip.light {
+  background: #ddd;
+  border: 1px solid #ddd;
+}
+
+.chip.light .close {
+  background: #bbb;
+  color: #fff;
+}
+
+.chip.dark {
+  background: #383b42;
+  border: 1px solid #383b42;
+  color: #fff;
+}
+
+.chip.dark .close {
+  background: #000;
+  color: #fff;
+}
+
+.chip .close {
+  border-radius: 100px;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+  padding: 0;
+  background: #f2f2f2;
+  margin-left: 30px;
+}
+
+.chip .close:hover {
+  background: #de0e0e;
+  color: #fff;
+}
+
+/* Datepicker */
+.datepicker-date-display {
+  background: #383b42;
+}
+
+.month-prev, .month-next {
+  background: #fff !important;
+}
+
+.datepicker-cancel, .datepicker-clear, .datepicker-today, .datepicker-done {
+  color: #ddd;
+}
+
+.datepicker-cancel:hover, .datepicker-clear:hover, .datepicker-today:hover, .datepicker-done:hover {
+  color: #000;
+}
+
+.datepicker-table td.is-today {
+  background: #383b42;
+  color: #fff;
+}
+
+.datepicker-table td.is-selected {
+  background: #29973e;
+}
+
+/* Radio buttons */
+[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:before, [type="radio"].with-gap:checked+span:after {
+  border: 2px solid #29973e;
+}
+
+
+/* Input */
+input:focus {
+  border-bottom: 1px solid #29973e !important;
+}
+
