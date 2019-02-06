@@ -11,4 +11,7 @@ $(function() {
   // Initialize datepicker library
   $('.datepicker').datepicker();
 
+  // Initialize Selects
+  $('select').formSelect();
+
 });

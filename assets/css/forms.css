@@ -17,12 +17,18 @@
   background-color: #29973e;
 }
 
+[type="checkbox"]+span:not(.lever) {
+  font-size: 13px;
+}
+
 /* Chips */
 .chip {
   background: #fff;
   line-height: 32px;
   padding: 0 0 0 15px;
   border: 1px solid #fff;
+  text-transform: uppercase;
+  font-size: 11px;
 }
 
 .chip.light {
@@ -68,7 +74,7 @@
 }
 
 .month-prev, .month-next {
-  background: #fff !important;
+  background: #f9f9f9 !important;
 }
 
 .datepicker-cancel, .datepicker-clear, .datepicker-today, .datepicker-done {
@@ -93,9 +99,66 @@
   border: 2px solid #29973e;
 }
 
+[type="radio"]:not(:checked)+span, [type="radio"]:checked+span {
+  font-size: 13px;
+}
+
 
 /* Input */
 input:focus {
   border-bottom: 1px solid #29973e !important;
 }
 
+/* Select */
+.select-wrapper input.select-dropdown {
+  border-bottom: 1px solid #ddd;
+}
+
+.select-wrapper+label {
+  text-transform: uppercase;
+  font-size: 11px;
+  top: -13px;
+}
+
+.select-wrapper input.select-dropdown {
+  font-size: 13px;
+}
+
+.dropdown-content {
+  background: #000;
+  color: #fff;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, .2);
+}
+
+.dropdown-content label {
+  color: #fff;
+}
+
+.dropdown-content li>a,
+.dropdown-content li>span {
+  color: #fff;
+  font-size: 13px;
+}
+
+.select-dropdown li.disabled, .select-dropdown li.disabled>span, .select-dropdown li.optgroup {
+  opacity: .5;
+  color: inherit;
+}
+
+.dropdown-content li:hover {
+  background: #29973e !important;
+}
+
+.dropdown-content .selected {
+  background: #29973e;
+}
+
+/* Switches */
+.switch label .lever,
+.switch label input[type=checkbox]:checked+.lever {
+  background: #ddd;
+}
+
+.switch label input[type=checkbox]:checked+.lever:after {
+  background: #29973e;
+}

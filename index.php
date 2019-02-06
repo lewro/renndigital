@@ -14,7 +14,7 @@
 
 
       <h2>Author</h2>
-      <p>Roman Leinwather - roman.leinwather@gmail.com<p>
+      <p>Roman Leinwather: roman.leinwather@gmail.com<p>
 
 
 
