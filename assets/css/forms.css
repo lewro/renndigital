@@ -25,29 +25,29 @@
 .chip {
   background: #fff;
   line-height: 32px;
-  padding: 0 0 0 15px;
+  padding: 0 0 0 20px;
   border: 1px solid #fff;
   text-transform: uppercase;
   font-size: 11px;
 }
 
-.chip.light {
+.chip.chip-light {
   background: #ddd;
   border: 1px solid #ddd;
 }
 
-.chip.light .close {
+.chip.chip-light .close {
   background: #bbb;
   color: #fff;
 }
 
-.chip.dark {
+.chip.chip-dark {
   background: #383b42;
   border: 1px solid #383b42;
   color: #fff;
 }
 
-.chip.dark .close {
+.chip.chip-dark .close {
   background: #000;
   color: #fff;
 }

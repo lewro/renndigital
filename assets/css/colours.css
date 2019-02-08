@@ -1,0 +1,49 @@
+/* Colours CSS
+// ------------------------------------
+// Author: Roman Leinwather
+// Created at: 04/02/2019
+// Copyright 2019 - All rights reserved Renndigital
+// ------------------------------------ */
+
+/* Primary */
+.primary {color: #383b42 !important;}
+.bg-primary {background: #383b42 !important;}
+
+/* Green */
+.success {color: #29973e !important;}
+.bg-success {background: #29973e !important;}
+
+/* Red */
+.warning {color: #de0e0e !important;}
+.bg-warning {background: #de0e0e !important;}
+
+/* White */
+.light {color: #fff !important;}
+.bg-light {background: #fff !important;}
+
+/* Black */
+.dark {color: #000 !important;}
+.bg-dark {background: #000 !important;}
+
+/* Greys */
+.grey1 {color: #333 !important;}
+.bg-grey1 {background: #333 !important;}
+
+.grey2 {color: #666 !important;}
+.bg-grey2 {background: #666 !important;}
+
+.grey3 {color: #999 !important;}
+.bg-grey3 {background: #999 !important;}
+
+.grey4 {color: #aaa !important;}
+.bg-grey4 {background: #aaa !important;}
+
+.grey5 {color: #ddd !important;}
+.bg-grey5 {background: #ddd !important;}
+
+.grey6 {color: #f2f2f2 !important;}
+.bg-grey6 {background: #f2f2f2 !important;}
+
+.grey7 {color: #f9f9f9!important;}
+.bg-grey7 {background: #f9f9f9 !important;}
+

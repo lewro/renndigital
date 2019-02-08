@@ -1,3 +1,5 @@
+<?php $nav="layout"; ?>
+
 <?php include("includes/head.php") ?>
 
 

@@ -22,7 +22,15 @@
   padding: 15px 30px;
 }
 
-.sidebar li a.active {
+.home .home-nav,
+.layout .layout-nav,
+.buttons .buttons-nav,
+.cards .cards-nav,
+.forms .forms-nav,
+.navigation .navigation-nav,
+.typography .typography-nav,
+.iconography .iconography-nav,
+.colours .colours-nav {
   background: #000;
 }
 

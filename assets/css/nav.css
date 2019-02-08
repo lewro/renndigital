@@ -1,0 +1,50 @@
+/* Navigation CSS
+// ------------------------------------
+// Author: Roman Leinwather
+// Created at: 04/02/2019
+// Copyright 2019 - All rights reserved Renndigital
+// ------------------------------------ */
+
+/* Primary */
+.navigation-primary {
+  background: #fff;
+  color: #000;
+  box-shadow: none;
+}
+
+.navigation-primary a {
+  color: #999;
+  font-size: 13px;
+  margin-right: 20px;
+}
+
+.navigation-primary a i {
+  height: auto;
+  font-size: 13px;
+  padding-right: 10px;
+}
+
+.navigation-primary a.active,
+.navigation-primary a:hover {
+  color: #000;
+  background: none;
+}
+
+/* Secondary */
+.navigation-secondary {
+  background: #000;
+  color: #fff;
+  box-shadow: none;
+}
+
+.navigation-secondary a {
+  color: #999;
+  font-size: 13px;
+  margin-right: 50px;
+}
+
+.navigation-secondary a.active,
+.navigation-secondary a:hover {
+  color: #fff;
+}
+

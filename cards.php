@@ -1,3 +1,5 @@
+<?php $nav="cards"; ?>
+
 <?php include("includes/head.php") ?>
 
 

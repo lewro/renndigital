@@ -1,0 +1,52 @@
+/* Typography CSS
+// ------------------------------------
+// Author: Roman Leinwather
+// Created at: 04/02/2019
+// Copyright 2019 - All rights reserved Renndigital
+// ------------------------------------ */
+
+/*
+Development notes:
+------------------
+Please remove the typography ID
+it is only uses in the UI library so it
+does not mix with the styles of library
+*/
+
+#typography h1 {
+  font-size: 45px;
+  font-weight: 500;
+  margin: 0 0 20px 0;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  letter-spacing: -1px;
+}
+
+#typography h2 {
+  font-size: 30px;
+  text-transform: capitalize;
+  font-weight: 300;
+  margin: 0 0 20px 0;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+}
+
+#typography h2 strong {
+ font-weight: bold;
+}
+
+#typography h3 {
+  font-size: 21px;
+  text-transform: capitalize;
+  font-weight: 300;
+  margin: 0 0 20px 0;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+}
+
+#typography h3 strong {
+ font-weight: bold;
+}
+
+#typography p {
+ font-size: 13px;
+ line-height: 2em;
+ font-family: Helvetica;
+}

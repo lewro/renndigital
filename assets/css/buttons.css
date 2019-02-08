@@ -16,42 +16,42 @@
   color: #666;
 }
 
-.button.white {
+.button-white {
   background: #fff;
   color: #666;
 }
 
-.button.white:hover {
+.button-white:hover {
   box-shadow: 0px 3px 5px rgba(0, 0, 0, .2);
   color: #000;
 }
 
-.button.light {
+.button-light {
   background: #ddd;
   color: #666;
 }
 
-.button.light:hover {
+.button-light:hover {
   box-shadow: 0px 3px 5px rgba(0, 0, 0, .2);
   color: #000;
 }
 
-.button.cancel {
+.button-cancel {
   color: #666;
   border: 1px solid #f2f2f2;
 }
 
-.button.cancel:hover {
+.button-cancel:hover {
   color: #000;
   border: 1px solid #ddd;
 }
 
-.button.dark {
+.button-dark {
   background: #383b42;
   color: #fff;
 }
 
-.button.dark:hover {
+.button-dark:hover {
   background: #000;
   color: #fff;
   box-shadow: 0px 3px 5px rgba(0, 0, 0, .2);
@@ -59,28 +59,28 @@
 
 
 /* Floating circle buttons */
-.btn-floating.white {
+.btn-floating.btn-f-white {
   background: #fff;
   box-shadow: none;
 }
 
-.btn-floating.white i {color: #666;}
+.btn-floating.btn-f-white i {color: #666;}
 
-.btn-floating.light {
+.btn-floating.btn-f-light {
   background: #ddd;
   box-shadow: none;
 }
 
-.btn-floating.light i {color: #666;}
+.btn-floating.btn-f-light i {color: #666;}
 
-.btn-floating.dark {
+.btn-floating.btn-f-dark {
   background: #383b42;
   box-shadow: none;
 }
 
 .btn-floating:hover {box-shadow: 0px 3px 5px #ddd;}
-.btn-floating.dark:hover {background: #000;}
+.btn-floating.btn-f-dark:hover {background: #000;}
 
-.btn-floating.dark i {color: #fff;}
+.btn-floating.btn-f-dark i {color: #fff;}
 
 
