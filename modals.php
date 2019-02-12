@@ -99,7 +99,7 @@
           <h1><i class="fas fa-check-circle"></i><strong>Congratulation!</strong>  You have accepted the deal invitatiion.</h1>
           <p>We have notified Peter Brown creator of deal: Francisco Red Cafe. What next? Create termsheet to start negotiation and achive deal agreement asap. </p>
           <div class="modal-buttons clearfix">
-            <a href="#!" class="button button-light">Chat with deal creator</a>
+            <a href="#!" class="button button-dark">Chat with deal creator</a>
             <a href="#!" class="button button-light">Create terms-sheet</a>
             <a href="#!" class="button button-cancel modal-close">Cancel</a>
           </div>
