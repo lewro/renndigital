@@ -14,4 +14,7 @@ $(function() {
   // Initialize Selects
   $('select').formSelect();
 
+  // Initialize Modals
+  $('.modal').modal();
+
 });

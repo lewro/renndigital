@@ -25,6 +25,9 @@
 <link rel="stylesheet" type="text/css" media="all" href="assets/css/nav.css?version=04022019" />
 <link rel="stylesheet" type="text/css" media="all" href="assets/css/colours.css?version=04022019" />
 <link rel="stylesheet" type="text/css" media="all" href="assets/css/typography.css?version=04022019" />
+<link rel="stylesheet" type="text/css" media="all" href="assets/css/modal.css?version=04022019" />
+<link rel="stylesheet" type="text/css" media="all" href="assets/css/invite.css?version=04022019" />
+<link rel="stylesheet" type="text/css" media="all" href="assets/css/file-upload.css?version=04022019" />
 
 <!-- Font icons -->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">

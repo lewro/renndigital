@@ -27,6 +27,10 @@
         <li> link rel="stylesheet" type="text/css" media="all" href="assets/css/forms.css" </li>
         <li> link rel="stylesheet" type="text/css" media="all" href="assets/css/nav.css" </li>
         <li> link rel="stylesheet" type="text/css" media="all" href="assets/css/colours.css" </li>
+        <li> link rel="stylesheet" type="text/css" media="all" href="assets/css/typography.css" </li>
+        <li> link rel="stylesheet" type="text/css" media="all" href="assets/css/modal.css" </li>
+        <li> link rel="stylesheet" type="text/css" media="all" href="assets/css/invite.css" </li>
+        <li> link rel="stylesheet" type="text/css" media="all" href="assets/css/file-upload.css" </li>
       </ul>
 
       <h2>Required Fonts</strong></h2>

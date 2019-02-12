@@ -109,13 +109,18 @@ input:focus {
   border-bottom: 1px solid #29973e !important;
 }
 
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+  border-bottom: 1px solid #ddd !important;
+  font-size: 13px;
+}
+
+
 /* Select */
 .select-wrapper input.select-dropdown {
   border-bottom: 1px solid #ddd;
 }
 
 .select-wrapper+label {
-  text-transform: uppercase;
   font-size: 11px;
   top: -13px;
 }

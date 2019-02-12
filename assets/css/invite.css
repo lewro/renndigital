@@ -1,0 +1,98 @@
+/* Invite CSS
+// ------------------------------------
+// Author: Roman Leinwather
+// Created at: 04/02/2019
+// Copyright 2019 - All rights reserved Renndigital
+// ------------------------------------ */
+
+.share {
+  border: 1px solid #999;
+  margin: 0 0 30px 0 !important;
+}
+
+.share-nav {
+  padding: 0px !important;
+}
+
+.share-body {
+  min-height: 380px !important;
+  border-left: 1px solid #999;
+}
+
+.share-email-text {
+  margin: 15px 15px 15px 15px;
+}
+
+.share-nav li {
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+.share-nav li:hover,
+.share-nav li.active {
+  background: #383b42;
+  color: #fff;
+}
+
+.share-email-text {
+  margin-top: 50px;
+}
+
+.share-picker {
+  border-bottom: 1px solid #999;
+  padding: 0px 15px;
+}
+
+.share-picker-select .input-field {
+  padding-right: 30px;
+  padding-top: 5px;
+}
+
+.or {
+  background-color: #fff;
+  border: 1px solid #999;
+  border-radius: 100px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 9px;
+  font-weight: bold;
+  margin: 25px 0 0 -25px;
+  float: left;
+}
+
+.invite-by-email {
+  border-left: 1px solid #999;
+}
+
+.invite-by-email .input-field {
+  margin-left: 30px;
+  padding-top: 5px;
+  width: calc(100% - 80px);
+  float: left;
+}
+
+.add-email {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin-top: 30px;
+  line-height: 30px;
+  margin-left: 10px;
+  font-size: 30px;
+  color: #ddd;
+}
+
+.add-email:hover {
+  color: #000;
+ }
+
+.invited-people-area {
+  margin-top: 30px;
+  padding: 5px 15px 5px 15px;
+}
+.invited-people-area label {
+  padding-bottom: 15px;
+  display: block;
+}

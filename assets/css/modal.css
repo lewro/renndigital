@@ -1,0 +1,44 @@
+/* Modal CSS
+// ------------------------------------
+// Author: Roman Leinwather
+// Created at: 04/02/2019
+// Copyright 2019 - All rights reserved Renndigital
+// ------------------------------------ */
+
+.modal {
+  background: #f2f2f2;
+  width: 75%;
+  min-height: 85%;
+}
+
+.modal .modal-content {
+  padding: 50px;
+}
+
+.modal.small {
+  min-height: 30%;
+  width: 60%;
+}
+
+.modal h1 {
+  font-size: 21px;
+  font-weight: 100;
+  margin: 15px 0 50px 0;
+}
+
+.modal h2 {
+  font-size: 17px;
+  text-transform: capitalize;
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+
+.modal .fa-check-circle {
+  color: #29973e;
+  margin-right: 10px;
+}
+
+.modal .fa-question-circle {
+  color: #de0e0e;
+  margin-right: 10px;
+}

@@ -9,4 +9,5 @@
   <li><a class="colours-nav" href="colours.php">Colours</a></li>
   <li><a class="typography-nav" href="typography.php">Typography</a></li>
   <li><a class="iconography-nav" href="iconography.php">Iconography</a></li>
+  <li><a class="modals-nav" href="modals.php">Modals</a></li>
 </ul>
