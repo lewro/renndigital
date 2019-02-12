@@ -74,7 +74,11 @@
 }
 
 .month-prev, .month-next {
-  background: #f9f9f9 !important;
+  background: #f2f2f2 !important;
+}
+
+.datepicker-date-display .date-text {
+  font-size: 21px;
 }
 
 .datepicker-cancel, .datepicker-clear, .datepicker-today, .datepicker-done {

@@ -20,6 +20,14 @@
   width: 60%;
 }
 
+.modal.datepicker-modal {
+  min-height: 25%;
+}
+
+.modal.datepicker-modal .modal-content{
+  padding: 0;
+}
+
 .modal h1 {
   font-size: 21px;
   font-weight: 100;
