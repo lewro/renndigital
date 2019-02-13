@@ -5,6 +5,15 @@
 // Copyright 2019 - All rights reserved Renndigital
 // ------------------------------------ */
 
+/* Labels */
+.input-field>label {
+  font-size: 11px !important;
+  top: 10px !important;
+}
+
+.input-field>label.active {
+  color: #29973e;
+}
 
 /* Checkboxes */
 [type="checkbox"]:checked+span:not(.lever):before {

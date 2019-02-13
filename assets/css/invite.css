@@ -14,15 +14,6 @@
   padding: 0px !important;
 }
 
-.share-body {
-  min-height: 380px !important;
-  border-left: 1px solid #999;
-}
-
-.share-email-text {
-  margin: 15px 15px 15px 15px;
-}
-
 .share-nav li {
   padding: 15px 30px;
   cursor: pointer;
@@ -32,6 +23,15 @@
 .share-nav li.active {
   background: #383b42;
   color: #fff;
+}
+
+.share-body {
+  min-height: 380px !important;
+  border-left: 1px solid #999;
+}
+
+.share-email-text {
+  margin: 15px 15px 15px 15px;
 }
 
 .share-email-text {

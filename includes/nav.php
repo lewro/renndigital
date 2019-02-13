@@ -10,4 +10,5 @@
   <li><a class="typography-nav" href="typography.php">Typography</a></li>
   <li><a class="iconography-nav" href="iconography.php">Iconography</a></li>
   <li><a class="modals-nav" href="modals.php">Modals</a></li>
+  <li><a class="chat-nav" href="chat.php">Chat</a></li>
 </ul>
